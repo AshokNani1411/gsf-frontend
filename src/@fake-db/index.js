@@ -1,0 +1,17 @@
+import mock from './mock'
+import './pages/account-settings'
+import './pages/calendar'
+import './pages/chat'
+import './pages/profile'
+import './pages/userList'
+import './tables/datatables'
+import './tables/orders'
+import './tables/deliveries-v1'
+import './tables/deliveries-v2'
+import './tables/drop-request'
+import './tables/pickup-request'
+import './tables/users'
+import './jwt'
+import './apps/eCommerce'
+
+mock.onAny().passThrough()

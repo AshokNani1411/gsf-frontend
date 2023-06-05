@@ -1,0 +1,59 @@
+
+.announcement .annosList {
+   display: flex;
+
+
+}
+
+
+.announcement .cardtitle {
+
+   display : flex;
+   justify-content: space-between;
+
+}
+
+.announcement .cardbody {
+   height : auto;
+    margin : 0px;
+
+}
+
+.announcement .card-desc {
+   height: 30px;
+   contain : content;
+   margin : 0px;
+}
+
+.announcement .card-dates {
+   margin-top : 5px;
+   display : flex;
+    justify-content: space-between;
+
+
+}
+
+.announcement .title-left {
+ float : left;
+ color : black;
+}
+
+
+.announcement .title-right {
+float : right;
+ color : black;
+ align-self: center;
+ padding-right : 10px;
+}
+
+
+
+
+
+.announcement .cardmain  {
+
+ width : 48%;
+ border : 1px solid #5c5c5c;
+ background-color : #ebf0f4;
+ margin : 15px;
+}

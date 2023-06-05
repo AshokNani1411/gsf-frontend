@@ -1,0 +1,87 @@
+
+.annosList {
+   display: flex;
+
+
+}
+
+.forum-cardmain .cardtitle {
+   background-color : lightslategrey;
+   display : flex;
+   justify-content: space-between;
+
+}
+
+.HeaderDiv {
+   display : flex;
+   width : 100%;
+   height : 40px;
+    align-items : center;
+    background-color : steelblue;
+    color : white;
+    font-size : 16px;
+    font-weight : 600;
+    margin-left : 10px;
+    margin-right : 10px;
+}
+
+.forum-cardmain .cardbody {
+   height : auto;
+    margin : 0px;
+
+}
+
+.forum-cardmain .card-desc {
+   height: 30px;
+
+}
+
+
+.forum-cardmain .card-avatar {
+   width : 30px;
+}
+
+.forum-cardmain .card-dates {
+   margin-top : 5px;
+   display : flex;
+
+
+
+}
+
+
+.col-align {
+  text-align-last : start;
+}
+
+.forum-cardmain .cardbody-main .css-qy3bmb-MuiAvatar-root {
+    position : absolute;
+}
+
+
+
+.title-left {
+ float : left;
+ color : white;
+}
+
+
+.title-right {
+float : right;
+ color : white;
+ align-self: center;
+ padding-right : 10px;
+}
+
+
+
+
+
+.forum-cardmain  {
+
+ width : 100%;
+ border : 1px solid #004e2a;
+ background-color : #ebf0f4;
+ margin : 15px;
+
+}

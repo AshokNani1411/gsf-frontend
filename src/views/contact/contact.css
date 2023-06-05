@@ -1,0 +1,18 @@
+
+
+.contact .rdt_TableHead .rdt_TableHeadRow {
+   display : flex;
+   width : 100%;
+   height : 40px;
+    align-items : center;
+    background-color : steelblue !important;
+    color : white !important;
+    font-size : 16px;
+    font-weight : 600;
+    margin-left : 20px;
+    margin-right : 20px;
+}
+
+.contact .react-dataTable .rdt_TableHead .rdt_TableHeadRow .rdt_TableCol .rdt_TableCol_Sortable {
+   color : white;
+}

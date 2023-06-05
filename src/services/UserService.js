@@ -1,0 +1,32 @@
+import axios from 'axios'
+import API from '@configs/API'
+
+const getAll = () => {
+  return axios.get(`${process.env.REACT_APP_API_BASE_URL}/users`)
+}
+
+const get = (id) => {
+  return axios.get(`${process.env.REACT_APP_API_BASE_URL}/users/${id}`)
+}
+
+const create = (data) => {
+  return axios.post(`${process.env.REACT_APP_API_BASE_URL}/createedituser`, data)
+}
+
+const update = (id, data) => {
+  return axios.put(`${process.env.REACT_APP_API_BASE_URL}/users/${id}`, data)
+}
+
+const remove = (data) => {
+  return axios.post(`${process.env.REACT_APP_API_BASE_URL}/users/delete`, data)
+}
+
+const UserService = {
+  getAll,
+  get,
+  create,
+  update,
+  remove
+}
+
+export default UserService

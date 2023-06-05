@@ -1,0 +1,410 @@
+.soheader {
+     height : 60px;
+     width : 100%;
+     background-color : #217f69;
+     color : white;
+}
+.prodCardMeta{
+   display: flex;
+    justify-content: space-between;
+}
+
+.productdetail_img {
+
+  height : 750px;
+  padding : 0px;
+  border-right : 1px solid lightgrey;
+
+}
+
+.prd_detail_image {
+   height : 600px;
+   width : 700px;
+}
+
+.shippingAddress {
+    height : 200px;
+    background-color: #217f69;
+    border : 1px solid #e2ebf6;
+
+
+}
+
+
+.dropDownProfile {
+    position : absolute;
+    width : auto;
+     overflow: hidden;
+    height : 1280px;
+    padding : 15px;
+    border-radius : 15px;
+    background-color : whitesmoke;
+    color : black;
+    top : 11.5rem;
+    left : 10.2rem;
+    border : 1px solid grey;
+      z-index: 1;
+      columns: 650px 3
+}
+
+.dropDownProfile ul {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+
+
+.dropDownProfile li {
+   padding : 8px 12px;
+   color : black;
+   font-size : 20px;
+   list-style-type: none;
+   font-weight : 500;
+ margin-right: 10px;
+  cursor : pointer;
+
+}
+
+.dropDownProfile ul li:hover {
+  background-color: #ccc;
+  color: #000;
+}
+
+
+.summaryCart{
+    background-color : #217f69 !important;
+    border: 1px solid whitesmoke !important;
+}
+
+.cartMandatory-item {
+   width : 150px;
+   margin : 50px;
+   padding : 10px;
+
+}
+
+.cardimg
+{ width: 80%; height: 150px;
+ }
+
+
+.cartMandatory {
+  display : flex;
+   justify-content: space-between;
+   flex-direction: row;
+   min-width : 450px;
+   margin : 40px;
+
+
+}
+.stepper-input{
+    color: #666;
+    max-width: 150px;
+    margin: 0 auto;
+    display: flex
+}
+
+.stepper-input .quantity{
+    width : 70px;
+    margin: 0 10px 0 10px;
+    te-align : center;
+    border-radius : 2px;
+}
+
+.stepper-input .decrement,.increment{
+height: 30px;
+    width: 220px;
+    border: 1px solid #217f69;
+     color: #217f69;
+    text-align: center;
+    box-sizing: border-box;
+    border-radius: 50%;
+    text-decoration: none;
+    font-size: 34px;
+    line-height: 15px;
+
+}
+
+.category {
+       width : 15%;
+       cursor : pointer;
+
+}
+
+.category-arrow{
+    color : black;
+
+
+}
+
+.cardmain  {
+ border-radius: 25px;
+}
+
+.category-name {
+  color : black;
+   background-color: lightgrey;
+       font-size : 18px;
+       font-weight : 500;
+ text-transform: uppercase;
+ border : none;
+ margin-top : 10px;
+
+}
+
+.socart-productList {
+
+}
+
+
+.AddtoCartBtn {
+     border : 1px solid #217f69;
+     text-transform: uppercase;
+     height : 40px;
+     width : 200px;
+     font-size : 14px;
+
+}
+
+
+
+.input-group {
+   display: flex;
+    flex-direction: row;
+    width: 200px;
+
+
+}
+
+.input-group .form-control {
+    width : auto;
+      font-size : 18px;
+      font-weight : 600;
+
+}
+
+.summartfromCart {
+ border-radius: 25px;
+   border : 1px solid #217f69;
+   margin-right : 10px;
+
+}
+
+.greenbtn {
+   background-color : #217f69;
+   color : white;
+
+}
+
+
+.socart{
+    height : 80px;
+    display: flex;
+    justify-content: space-between;
+     background-color : #bcd8d2;
+
+     padding : 10px;
+
+}
+
+.input-group-text {
+   width : 10px;
+}
+
+.prd-price {
+color : black;
+ font-size: 22px;
+  font-weight: 700;
+}
+
+.shopingcartIcon{
+   cursor : pointer;
+   font-size : 40;
+
+}
+
+.shopingcartIcon2{
+   cursor : pointer;
+   font-size : 24px;
+   font-weight : 600;
+}
+
+.category-menulist {
+   height : 30vh;
+
+
+}
+
+.shipToAddress {
+   margin-left : 15px;
+
+}
+
+
+.socart-search {
+    width : 50%;
+    border-radius : 25px;
+}
+
+.socart-search .ant-input-clear-icon{
+  color: green;
+  font-size : 16px;
+  align : center;
+}
+
+.ant-input-search-button {
+    background-color : lightgrey;
+    color : black;
+}
+
+.increbtn {
+  margin : 0px 5px 0 5px;
+  font-size: 30px;
+  font-weight : 800;
+  height : 40px;
+  width : 40px;
+  background : grey;
+  color : white
+
+
+}
+
+
+.pageContent {
+    display : flex;
+    flex : 1;
+    overflow-y : auto;
+
+}
+
+.ItemCard {
+   margin : 6px;
+}
+
+.ProductImage{
+     height : 150px !important;
+     object-fit: scale-down;
+}
+
+.addtocart {
+  text-transform: uppercase;
+
+}
+
+
+ .grid {
+  display: flex;
+  grid-gap: 1em;
+  margin: 0 auto;
+  padding: 0;
+}
+
+
+.gridcard {
+  margin-top : 5px;
+  background-color: #fff;
+  position: relative;
+  border-radius: 0.5em;
+  height : 160px !important;
+  width : 365px !important;
+  }
+  /*
+  border-radius: 0.5em;
+  position: relative;
+
+  &:hover {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+  }
+}
+
+*/
+.gridradio {
+  font-size: inherit;
+  margin: 0;
+  position: absolute;
+  right: calc(1em + 2px);
+  top: calc(1em + 2px);
+}
+
+ .grid-plan-details {
+  border: 2px solid #e2ebf6;
+  border-radius: 0.5em;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  height : inherit;
+  padding: 1em;
+  transition: border-color 0.2s ease-out;
+  width : inherit;
+  height: 150px;
+}
+
+ .gridcard:hover .grid-plan-details {
+  border-color: #c4d1e1;
+}
+
+ .gridradio:checked ~ .grid-plan-details {
+  border-color: #558309;
+}
+
+ .gridradio:focus ~ .grid-plan-details {
+  box-shadow: 0 0 0 2px #c4d1e1;
+}
+
+ .gridradio:disabled ~ .grid-plan-details {
+  color: #c4d1e1;
+  cursor: default;
+}
+
+ .gridradio:disabled ~ .grid-plan-details .grid-plan-type {
+  color: #c4d1e1;
+}
+
+ .gridcard:hover .gridradio:disabled ~ .grid-plan-details {
+  border-color: #e2ebf6;
+  box-shadow: none;
+}
+
+ .gridcard:hover .gridradio:disabled {
+    border-color: #e2ebf6;
+  }
+
+ .grid-plan-type {
+  color: #558309;
+  font-size: 1.5rem;
+  font-weight: bold;
+  line-height: 1em;
+}
+
+ .grid-plan-cost {
+  font-size: 2.5rem;
+  font-weight: bold;
+  padding: 0.5rem 0;
+}
+
+ .grid-slash {
+  font-weight: normal;
+}
+
+ .grid-plan-cycle {
+  font-size: 2rem;
+  font-variant: none;
+  border-bottom: none;
+  cursor: inherit;
+  text-decoration: none;
+}
+
+ .grid-hidden-visually {
+  border: 0;
+  clip: rect(0, 0, 0, 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
+
+
